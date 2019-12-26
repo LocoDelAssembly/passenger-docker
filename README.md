@@ -94,9 +94,9 @@ Basics (learn more at [baseimage-docker](http://phusion.github.io/baseimage-dock
 
 Language support:
 
- * Ruby 2.3.8, 2.4.9, 2.5.7 and 2.6.5; JRuby 9.2.0.0.
+ * Ruby 2.3.8, 2.4.9, 2.5.7, 2.6.5 and 2.7.0; JRuby 9.2.0.0.
    * RVM is used to manage Ruby versions. [Why RVM?](#why_rvm)
-   * 2.6.5 is configured as the default.
+   * 2.7.0 is configured as the default.
    * JRuby is installed from source, but we register an APT entry for it.
    * JRuby uses OpenJDK 8.
  * Python 2.7 and Python 3.6.
